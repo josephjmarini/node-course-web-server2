@@ -30,7 +30,7 @@ app.use( (req, res, next) => {
     // need this call to continue execution
     next();
 });
-
+ 
 // only activate in maintenance mode
 //
 // app.use( (req, res, next) => {
