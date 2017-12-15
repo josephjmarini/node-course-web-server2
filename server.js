@@ -75,7 +75,7 @@ app.get('/about',(req, res) => {
 
 });
 
-// about route
+// project route
 app.get('/project',(req, res) => {
     res.render('project.hbs', {
         pageTitle: 'Project Title Page'
