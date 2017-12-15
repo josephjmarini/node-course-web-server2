@@ -75,6 +75,14 @@ app.get('/about',(req, res) => {
 
 });
 
+// about route
+app.get('/project',(req, res) => {
+    res.render('project.hbs', {
+        pageTitle: 'Project Title Page'
+    });
+
+});
+
 // bad route
 app.get('/bad',(req, res) => {
     res.send({
